@@ -3,10 +3,12 @@
 //parseInt()
 
 
-var num = prompt("Enter a non decimal number to count to:");
+
 
 
 function Fizzbuzz(num) {
+
+var num = prompt("Enter a non decimal number to count to:");
 
 	function checkNum(num) {
 		if (num % 1 != 0) {
@@ -30,5 +32,6 @@ parseInt(num, 10);
 			}
 		}
 	}
+var num = 0;
 
 Fizzbuzz(num);
